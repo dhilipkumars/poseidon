@@ -4,10 +4,10 @@
 package mock_firmament
 
 import (
-	firmament "k8s.io/scheduling_poseidon/pkg/firmament"
 	gomock "github.com/golang/mock/gomock"
 	context "golang.org/x/net/context"
 	grpc "google.golang.org/grpc"
+	firmament "k8s.io/scheduling_poseidon/pkg/firmament"
 )
 
 // Mock of FirmamentSchedulerClient interface
