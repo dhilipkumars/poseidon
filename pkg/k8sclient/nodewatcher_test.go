@@ -117,7 +117,7 @@ func TestNewNodeWatcher(t *testing.T) {
 	testObj := initializeNodeObj(t)
 	defer testObj.mockCtrl.Finish()
 	nodeWatch := NewNodeWatcher(testObj.kubeClient, testObj.firmamentClient)
-	t.Logf("Node watcher=", nodeWatch)
+	t.Logf("Node watcher=%v", nodeWatch)
 }
 
 func TestNodeWatcher_getReadyAndOutOfDiskConditions(t *testing.T) {
