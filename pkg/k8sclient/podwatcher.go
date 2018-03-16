@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/scheduling_poseidon/pkg/firmament"
+	"k8s.io/poseidon/pkg/firmament"
 
 	"github.com/golang/glog"
 	"k8s.io/api/core/v1"

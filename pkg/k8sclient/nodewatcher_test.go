@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/scheduling_poseidon/pkg/firmament"
-	"k8s.io/scheduling_poseidon/pkg/mock_firmament"
+	"k8s.io/poseidon/pkg/firmament"
+	"k8s.io/poseidon/pkg/mock_firmament"
 
 	"github.com/golang/mock/gomock"
 	"k8s.io/api/core/v1"

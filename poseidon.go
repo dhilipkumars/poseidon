@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
-	"k8s.io/scheduling_poseidon/pkg/firmament"
-	"k8s.io/scheduling_poseidon/pkg/k8sclient"
-	"k8s.io/scheduling_poseidon/pkg/stats"
+	"k8s.io/poseidon/pkg/firmament"
+	"k8s.io/poseidon/pkg/k8sclient"
+	"k8s.io/poseidon/pkg/stats"
 
 	"github.com/golang/glog"
 )
